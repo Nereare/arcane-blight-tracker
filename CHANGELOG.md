@@ -1,4 +1,4 @@
-# [{{PKG_NAME}}](https://github.com/{{PKG_USERNAME}}/{{PKG_REPO}}) Changelog
+# [Arcane Blight Tracker](https://github.com/Nereare/arcane-blight-tracker) Changelog
 
 All notable changes to this project will be documented in this file.
 
@@ -7,9 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2022-07-19
 ### Added
 - Code of Conduct from [Contributor Covenant](https://www.contributor-covenant.org/).
-- [{{PKG_LICENSE_NAME}}](LICENSE.md).
+- [Do What The F*ck You Want To Public License](LICENSE.md).
 - Git metafiles (`.gitignore` and `.gitattributes`).
 - GitHub templates:
   - Issues;
@@ -18,4 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Pull request.
 - ReadMe file.
 - Changelog file.
-- ...
+- Added app.
+
+[Unreleased]: https://github.com/Nereare/arcane-blight-tracker/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/Nereare/arcane-blight-tracker/releases/tag/v1.0.0

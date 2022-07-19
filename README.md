@@ -1,18 +1,10 @@
-# {{PKG_NAME}}
+# Arcane Blight Tracker
 
-[![GitHub package.json version](https://img.shields.io/github/package-json/v/{{PKG_USERNAME}}/{{PKG_REPO}})](https://github.com/{{PKG_USERNAME}}/{{PKG_REPO}})
-[![License](https://img.shields.io/github/license/{{PKG_USERNAME}}/{{PKG_REPO}}.svg)](LICENSE.md)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/Nereare/arcane-blight-tracker)](https://github.com/Nereare/arcane-blight-tracker)
+[![License](https://img.shields.io/github/license/Nereare/arcane-blight-tracker.svg)](LICENSE.md)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE-OF-CONDUCT.md)
 
-{{PKG_DESCRIPTION}}
-
-## Installing
-
-<!--
-TODO Set installation instructions
-BODY If there is some installation method, define it on the [README file](README.md).
--->
-1. Foo.
+A simple, embedable, tracker for the exploration of Ythryn in "Icewind Dale: Rime of the Frostmaiden".
 
 ## Contributing
 
@@ -35,8 +27,8 @@ By participating in this project you agree to abide by its terms.
 See the [Change Log](CHANGELOG.md) for further history.
 
 This project uses [SemVer](http://semver.org/) for versioning. For the versions
-available, see the [tags on this repository](https://github.com/{{PKG_USERNAME}}/{{PKG_REPO}}/tags).
+available, see the [tags on this repository](https://github.com/Nereare/arcane-blight-tracker/tags).
 
 ## License
 
-This project is available under the [{{PKG_LICENSE_NAME}}]({{PKG_LICENSE_URI}}).
+This project is available under the [Do What The F*ck You Want To Public License](http://www.wtfpl.net/).

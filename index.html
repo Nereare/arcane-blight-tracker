@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="application-name" content="arcane-blight-tracker">
+    <meta name="author" content="Igor Padoim">
+    <meta name="description" content="A simple, embedable, tracker for the exploration of Ythryn">
+    <meta name="keywords" content="javascript, jquery, dnd, rpg, html5, css3, dnd5e, rpg-tool, dnd5e-tools, 5etools">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="production" content="true">
+    <title>Arcane Blight Tracker</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="194x194" href="favicon/favicon-194x194.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#4d4fee">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#4d4fee">
+    <meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#4d4fee">
+
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/typeface-montserrat/index.css">
+    <link rel="stylesheet" href="node_modules/typeface-source-code-pro/index.css">
+    <link rel="stylesheet" href="node_modules/@mdi/font/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="pyro is-hidden">
+      <div class="before"></div>
+      <div class="after"></div>
+    </div>
+
+    <section class="hero is-fullheight" id="hero">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column is-12-tablet is-6-desktop is-8-widescreen">
+              <div class="box" id="win">
+
+                <input type="number" class="is-hidden" id="dc">
+                <input type="number" class="is-hidden" id="time">
+
+                <div class="field">
+                  <div class="control is-expanded">
+                    <button type"button" class="button is-warning is-medium is-fullwidth" id="go">
+                      <span class="icon-text">
+                        <span class="icon">
+                          <i class="mdi mdi-clock-plus mdi-24px"></i>
+                        </span>
+                        <span>12h</span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+
+                <table class="table is-fullwidth is-striped is-hoverable">
+                  <thead>
+                    <tr>
+                      <th>Time</th>
+                      <th>DC</th>
+                      <th>Roll</th>
+                      <th>Result</th>
+                    </tr>
+                  </thead>
+                  <tbody id="dc-container"></tbody>
+                </table>
+
+                <div class="field has-addons">
+                  <div class="control">
+                    <button class="button is-static is-large" tabindex="-1">CON Save</button>
+                  </div>
+                  <div class="control is-expanded">
+                    <input type="number" class="input is-large" id="roll" step="1" placeholder="Result..." disabled>
+                  </div>
+                  <div class="control">
+                    <button type="button" class="button is-primary is-large" id="check" disabled>
+                      <span class="icon">
+                        <i class="mdi mdi-dots-horizontal-circle mdi-36px"></i>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="field">
+                  <div class="control is-expanded">
+                    <button type="button" class="button is-danger is-fullwidth" id="restart">
+                      <span class="icon-text">
+                        <span class="icon">
+                          <i class="mdi mdi-delete"></i>
+                        </span>
+                        <span>Restart</span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

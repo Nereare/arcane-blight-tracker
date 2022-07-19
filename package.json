@@ -1,16 +1,24 @@
 {
-  "name": "{{PKG_REPO}}",
-  "description": "{{PKG_DESC}}",
-  "version": "{{PKG_VERS}}",
+  "name": "arcane-blight-tracker",
+  "description": "A simple, embedable, tracker for the exploration of Ythryn",
+  "version": "1.0.0",
   "maintainers": [
     {
-      "name": "{{PKG_AUTHOR}}",
-      "email": "{{PKG_USEREMAIL}}",
-      "web": "{{PKG_USERURI}}"
+      "name": "Igor Padoim",
+      "email": "igorpadoim@gmail.com",
+      "web": "https://nereare.com/"
     }
   ],
   "bugs": {
-    "web": "https://github.com/{{PKG_USERNAME}}/{{PKG_REPO}}/issues"
+    "web": "https://github.com/Nereare/arcane-blight-tracker/issues"
   },
-  "license": "{{PKG_LICENSE_SPDX}}"
+  "license": "WTFPL",
+  "dependencies": {
+    "@mdi/font": "^6.9.96",
+    "bulma": "^0.9.4",
+    "jquery": "^3.6.0",
+    "normalize.css": "^8.0.1",
+    "typeface-montserrat": "^1.1.13",
+    "typeface-source-code-pro": "^1.1.13"
+  }
 }
